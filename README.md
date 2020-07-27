@@ -24,7 +24,16 @@
   * wp db import PATH/NAME.sql
   * wp search-replace 'BEFORE' 'AFTER'
   * wp search-replace 'BEFORE' 'AFTER' --dry-run
- 
+
+## 文字列の置換に関すること
+
+### 置換が必要になるパターン
+
+1. 接続が http から https になる時
+
+1. ドメイン名が変更になるとき
+  1. 本番環境の URL 変更に伴う移設
+  1. 検証環境から本番環境 への移設  
 
 
 
